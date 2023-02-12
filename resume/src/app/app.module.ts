@@ -10,6 +10,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CodingProficiencyComponent } from './coding-proficiency/coding-proficiency.component';
+import { CodingBarComponent } from './skills/coding-bar/coding-bar.component';
+import { EntryComponent } from './experience/entry/entry.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CodingProficiencyComponent } from './coding-proficiency/coding-proficie
     SkillsComponent,
     ExperienceComponent,
     ProjectsComponent,
-    CodingProficiencyComponent
+    CodingProficiencyComponent,
+    CodingBarComponent,
+    EntryComponent
   ],
   imports: [
     BrowserModule,

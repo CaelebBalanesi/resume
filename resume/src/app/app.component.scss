@@ -1,0 +1,33 @@
+@import "../stylings/pattern.css";
+
+$bg-color: hsl(256,33,10);
+$dot-color: hsl(256,33,70);
+$dot-size: 1px;
+$dot-space: 22px;
+
+.container{
+  z-index: -5;
+}
+
+.intro-page{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+  		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+  		$dot-color;
+  background-size: $dot-space $dot-space;
+}
+
+.skills-exp-page{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    $bg-color,
+    $bg-color 10px,
+    black 10px,
+    black 20px
+  )
+}

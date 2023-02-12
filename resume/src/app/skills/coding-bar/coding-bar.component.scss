@@ -1,0 +1,32 @@
+$bar-height: 19px;
+$font: monospace;
+
+.container{
+ width: 40%;
+ height: 40%;
+ display: flex;
+ text-align: center;
+ margin: 8px;
+}
+
+.bar-inside{
+  height: $bar-height;
+  background-color: #c2c2c2;
+  width: 50%;
+  border-radius: 9px;
+}
+
+.bar-outside{
+  position: relative;
+  height: $bar-height;
+  background-color: #e1e1e1;
+  width: 70%;
+  border-radius: 9px;
+  margin-left: auto;
+}
+
+.language-name{
+  margin: 0px;
+  font-size: 16px;
+  font-family: $font;
+}
